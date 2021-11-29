@@ -1,0 +1,88 @@
+body{
+  background-image: url(backgroundmonopattini.jpg);
+  background-size:cover;
+  font-family: Helvetica, Sans-Serif;
+  background-repeat:no-repeat;
+}
+
+
+.container{
+  width: 1000px;
+  margin:auto;
+  border-style: solid;
+  border-width:medium;
+  border-color: black;
+  border-radius: 10px;
+
+  border:70px solid black;
+  box-sizing: border-box;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.superiore{
+  margin-top: 1px;
+}
+
+.logo{
+  width: auto;
+  height: 60px;
+  display: block;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.logo-text{
+  font-size: 25px;
+  display: block;
+  color: #00ff00;
+  text-align:center;
+}
+
+.bottoni{
+  font-size: 4px;
+  display:block;
+  text-align: center;
+  padding: 5px 1px 4px 1px;
+  background-color: #00ff00;
+
+}
+
+.lista-sopra{
+  list-style-type: square;
+  color: white;
+}
+
+.lista-centro{
+  color: lightgrey;
+  font-size: 10px;
+}
+
+.lista-sotto{
+  list-style-type: none;
+  color: lightgrey;
+  font-size: 10px;
+}
+
+#monouno{
+  display:block;
+  padding: 4px 2px 10px 20px;
+  background-color: #00ff00;
+  margin-right: 78%;
+  background-color: #ffd800;
+}
+
+#monodue{
+  display:block;
+  padding: 4px 2px 10px 20px;
+  background-color: #00ff00;
+  margin-right: 65%;
+  background-color: #00ff00;
+}
+
+#monotre{
+  display:block;
+  padding: 4px 2px 10px 20px;
+  background-color: #00ff00;
+  margin-right: 90%;
+  background-color: red;
